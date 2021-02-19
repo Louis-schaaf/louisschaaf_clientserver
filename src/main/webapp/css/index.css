@@ -1,0 +1,127 @@
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #3D3B3C;
+}
+main {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+footer {
+    height: 5%;
+    width: 90%;
+    margin: auto;
+    line-height: 40px;
+    background-color: #323031;
+}
+#highlight {
+    color: white;
+}
+nav {
+    height: 5%;
+    width: 90%;
+    margin: auto;
+    background-color: #323031;
+}
+nav>ul>li {
+    list-style: none;
+    display: inline-block;
+}
+nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+    padding-left: 14em;
+    line-height: 40px;
+    text-align: center;
+}
+nav>ul>li>a:hover {
+    color: #7F7979;
+}
+h2 {
+    font-weight: bold;
+    padding-bottom: 1%;
+    padding-top: 2%;
+}
+p {
+    padding-top: 2%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #625c5c;
+}
+
+
+section {
+    padding: 1em;
+}
+
+form {
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    width: 50%;
+    margin: auto;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+#Bevestig:hover {
+    background-color: #BC1414;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.4rem;
+}
+
+input, textarea, select {
+    display: block;
+    box-sizing: border-box;
+    line-height: 2em;
+    border: 1px solid #000000;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    width: 100%;
+    margin: auto;
+}
+label>span {
+    color: #ff0000;
+}
+select{
+    width: auto;
+}
+
+input[type="radio"] + label, input[type="radio"] {
+    display: inline;
+    width: auto;
+}
+
+::placeholder, input, textarea, select {
+    font-size: 0.8rem;
+    padding: 0.4rem;
+}
+
+select {
+    height: 2.5rem;
+}
+#title {
+    margin-left: 43%;
+}
