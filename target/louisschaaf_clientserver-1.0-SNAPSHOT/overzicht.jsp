@@ -33,6 +33,8 @@
                 <th>telnr</th>
                 <th>snapchat</th>
                 <th>instagram</th>
+                <th></th>
+                <th></th>
             </tr>
             <tr>
                 <td>Louis</td>

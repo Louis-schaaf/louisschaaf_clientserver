@@ -91,6 +91,11 @@ label {
     margin-bottom: 0.4rem;
 }
 
+td>a {
+    text-decoration: underline;
+    color: blue;
+}
+
 input, textarea, select {
     display: block;
     box-sizing: border-box;
