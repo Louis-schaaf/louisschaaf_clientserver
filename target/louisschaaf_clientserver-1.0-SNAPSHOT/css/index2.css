@@ -1,0 +1,150 @@
+body, html {
+    background-image: url("../img/telephone_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #625c5c;
+    color: white;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+main {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+footer {
+
+}
+
+#highlight {
+    color: #6d6d6d;
+}
+nav {
+    height: 5%;
+    width: 90%;
+    margin: auto;
+}
+nav>ul>li {
+    display: inline-block;
+    padding-left: 15%;
+    border: #625c5c 1px;
+    font-size: x-large;
+}
+
+
+h2 {
+    position: relative;
+    position: center;
+    font-size: larger;
+
+}
+.indexPage {
+    position: absolute;
+    top: 50%;
+}
+.indexPage>ul>li {
+    list-style: none;
+
+    font-size: x-large;
+}
+#title>h1 {
+    position: relative;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    top: 40%;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+}
+nav>ul>li>a:hover {
+    color: #7F7979;
+}
+
+/* forms */
+
+table {
+    margin-top: 10%;
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(odd) {
+    background-color: #5a2d22;
+}
+tr:nth-child(even) {
+    background-color: #622e11;
+}
+
+
+section {
+    padding: 1em;
+}
+
+form {
+    padding-top: 5%;
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    width: 50%;
+    margin: auto;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+#Bevestig:hover {
+    background-color: #BC1414;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.4rem;
+}
+
+td>a {
+    text-decoration: underline;
+    color: blue;
+}
+
+input, textarea, select {
+    display: block;
+    box-sizing: border-box;
+    line-height: 2em;
+    border: 1px solid #000000;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    width: 100%;
+    margin: auto;
+}
+label>span {
+    color: #ff0000;
+}
+select{
+    width: auto;
+}
+
+input[type="radio"] + label, input[type="radio"] {
+    display: inline;
+    width: auto;
+}
+
+::placeholder, input, textarea, select {
+    font-size: 0.8rem;
+    padding: 0.4rem;
+}
+
+select {
+    height: 2.5rem;
+}

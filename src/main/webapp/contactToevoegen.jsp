@@ -10,7 +10,7 @@
 <head>
     <title>Contacten toevoegen</title>
     <link href="css/reset.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
+    <link href="css/index2.css" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -23,7 +23,6 @@
     </nav>
 </header>
 <main>
-    <h2 id="title">Contact toevoegen:</h2>
     <form id="contactForm" action="#">
 
         <p><label for="voornaam">Voornaam:<span>*</span></label>

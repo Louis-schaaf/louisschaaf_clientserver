@@ -10,11 +10,11 @@
 <head>
     <title>Digitale vriendenboekje</title>
     <link href="css/reset.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
+    <link href="css/index2.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="indexPage">
             <ul>
                 <li><a href="index.jsp" id="highlight">Home</a></li>
                 <li><a href="contactToevoegen.jsp">Contacten toevoegen</a></li>
@@ -22,9 +22,8 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h2>Welkom op mijn digitale contactboek!</h2>
-        <p>in dit contactboek kan je jezelf toevoegen en kijken wie er al in mijn vriendenboek geschreven heeft! <br>je hoeft niet alles in te vullen maar hoe meer je invult hoe beter!</p>
+    <main id="title">
+        <h1>Digitale contactenboek</h1>
     </main>
     <footer>
 
