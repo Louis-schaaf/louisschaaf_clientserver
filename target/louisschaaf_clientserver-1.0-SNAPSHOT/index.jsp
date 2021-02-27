@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Digitale vriendenboekje</title>
+    <title>Digitale contactboek</title>
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/index2.css" rel="stylesheet">
 </head>

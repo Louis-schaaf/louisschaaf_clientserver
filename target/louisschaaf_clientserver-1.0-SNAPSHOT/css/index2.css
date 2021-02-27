@@ -12,7 +12,6 @@ body {
 }
 main {
     width: 90%;
-    height: 90%;
     margin: auto;
 }
 footer {
@@ -23,15 +22,25 @@ footer {
     color: #6d6d6d;
 }
 nav {
-    height: 5%;
-    width: 90%;
     margin: auto;
+    list-style: none;
+    padding-top: 20px;
+}
+.indexPage {
+    padding-top: 0px;
+}
+.indexPage>ul {
+    position: relative;
+    top: 30em;
+}
+nav>ul {
+    justify-content: space-evenly;
+    display: flex;
 }
 nav>ul>li {
-    display: inline-block;
-    padding-left: 15%;
-    border: #625c5c 1px;
     font-size: x-large;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 
@@ -41,6 +50,7 @@ h2 {
     font-size: larger;
 
 }
+/*
 .indexPage {
     position: absolute;
     top: 50%;
@@ -49,13 +59,13 @@ h2 {
     list-style: none;
 
     font-size: x-large;
-}
+} */
 #title>h1 {
     position: relative;
     font-size: xx-large;
     color: white;
     text-align: center;
-    top: 40%;
+    top: 10em;
 }
 
 nav>ul>li>a {
